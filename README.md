@@ -22,15 +22,14 @@ Dynamic Table Designer is a React/Next.js application that allows users to creat
  
 2. Install the dependencies:
 
-sh
-Copy code
-npm install
+
+    ```sh
+    npm install
 
 3. Run the application:
 
-sh
-Copy code
-npm run dev
+    ```sh
+    npm run dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
  
