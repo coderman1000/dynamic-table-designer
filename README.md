@@ -1,9 +1,25 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
+Dynamic Table Designer is a React/Next.js application that allows users to create multiple tables on a designer surface. Users can define the number of columns and rows for each table, bind parameters/fields to columns, and fetch data from an API. The application leverages Material-UI for a professional and interactive user interface.
 
-First, run the development server:
 
+## Features
+
+- Drag-and-drop interface for creating and organizing tables
+- Add multiple tables to the designer surface
+- Define columns and rows for each table
+- Professional and interactive UI with Material-UI components
+- Unique IDs for each table using `uuidv4`
+
+## Installation
+
+1. Clone the repository:
+
+   ```sh
+   git clone https://github.com/yourusername/dynamic-table-designer.git
+   cd dynamic-table-designer
+ 
 ```bash
 npm run dev
 # or
@@ -15,22 +31,4 @@ bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+ 

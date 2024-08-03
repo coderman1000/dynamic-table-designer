@@ -1,9 +1,9 @@
 "use client";
-// pages/index.js
 import React, { useState } from "react";
 import DesignerSurface from "../components/DesignerSurface";
 import { v4 as uuidv4 } from "uuid";
-import { Button } from "@mui/material";
+import { Button, Container, Typography } from "@mui/material";
+import AddIcon from "@mui/icons-material/Add";
 
 const IndexPage = () => {
   const [tables, setTables] = useState([]);
@@ -22,10 +22,20 @@ const IndexPage = () => {
   };
 
   return (
-    <div>
-      <Button onClick={handleAddTable}>Add Table</Button>
+    <Container sx={{ mt: 4 }}>
+      <Typography variant="h4" gutterBottom>
+        Dynamic Data Visualization
+      </Typography>
+      <Button
+        variant="contained"
+        startIcon={<AddIcon />}
+        onClick={handleAddTable}
+        sx={{ mb: 2 }}
+      >
+        Add Table
+      </Button>
       <DesignerSurface tables={tables} onDragEnd={handleDragEnd} />
-    </div>
+    </Container>
   );
 };
 
