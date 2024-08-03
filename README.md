@@ -26,7 +26,7 @@ sh
 Copy code
 npm install
 
-3.Run the application:
+3. Run the application:
 
 sh
 Copy code
